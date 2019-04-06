@@ -1,7 +1,3 @@
-//
-// Created by prog2100 on 26/11/17.
-//
-
 #include <algorithm>
 #include "Zombie.h"
 #include "Human.h"
@@ -37,11 +33,6 @@ void Zombie::move() {
             possibleMoves.push_back(moveList(LEFT));
         } else if (world->getOrganism(x, left)->getSpecies() == HUMAN) {
             possibleEats.push_back(moveList(LEFT));
-
-//            world->setOrganism(oldX,oldY, nullptr);
-//            world->setOrganism(x, left, this);
-//            this->setPosition(x,left);
-//            ateHuman = true;
         }
     }
     ////Check Up
@@ -50,11 +41,6 @@ void Zombie::move() {
             possibleMoves.push_back(moveList(UP));
         } else if (world->getOrganism(up, y)->getSpecies() == HUMAN) {
             possibleEats.push_back(moveList(UP));
-
-//            world->setOrganism(oldX,oldY, nullptr);
-//            world->setOrganism(up, y, this);
-//            this->setPosition(up, y);
-//            ateHuman = true;
         }
     }
     ////Check Right
@@ -63,11 +49,6 @@ void Zombie::move() {
             possibleMoves.push_back(moveList(RIGHT));
         } else if (world->getOrganism(x, right)->getSpecies() == HUMAN) {
             possibleEats.push_back(moveList(RIGHT));
-
-//            world->setOrganism(oldX,oldY, nullptr);
-//            world->setOrganism(x, right, this);
-//            this->setPosition(x, right);
-//            ateHuman = true;
         }
     }
     ////Check Down
@@ -76,11 +57,6 @@ void Zombie::move() {
             possibleMoves.push_back(moveList(DOWN));
         } else if (world->getOrganism(down, y)->getSpecies() == HUMAN) {
             possibleEats.push_back(moveList(DOWN));
-
-//            world->setOrganism(oldX,oldY, nullptr);
-//            world->setOrganism(down, y, this);
-//            this->setPosition(down, y);
-//            ateHuman = true;
         }
     }
     ////Check NW
@@ -89,11 +65,6 @@ void Zombie::move() {
             possibleMoves.push_back(moveList(UPLEFT));
         } else if (world->getOrganism(up, left)->getSpecies() == HUMAN) {
             possibleEats.push_back(moveList(UPLEFT));
-
-//            world->setOrganism(oldX,oldY, nullptr);
-//            world->setOrganism(up, left, this);
-//            this->setPosition(up, left);
-//            ateHuman = true;
         }
     }
     ////Check NE
@@ -102,11 +73,6 @@ void Zombie::move() {
             possibleMoves.push_back(moveList(UPRIGHT));
         } else if (world->getOrganism(up, right)->getSpecies() == HUMAN) {
             possibleEats.push_back(moveList(UPRIGHT));
-
-//            world->setOrganism(oldX,oldY, nullptr);
-//            world->setOrganism(up, right, this);
-//            this->setPosition(up, right);
-//            ateHuman = true;
         }
     }
     ////Check SE
@@ -115,11 +81,6 @@ void Zombie::move() {
             possibleMoves.push_back(moveList(DOWNRIGHT));
         } else if (world->getOrganism(down, right)->getSpecies() == HUMAN) {
             possibleEats.push_back(moveList(DOWNRIGHT));
-
-//            world->setOrganism(oldX,oldY, nullptr);
-//            world->setOrganism(down, right, this);
-//            this->setPosition(down, right);
-//            ateHuman = true;
         }
     }
     ////Check SW
@@ -128,11 +89,6 @@ void Zombie::move() {
             possibleMoves.push_back(moveList(DOWNLEFT));
         } else if (world->getOrganism(down, left)->getSpecies() == HUMAN) {
             possibleEats.push_back(moveList(DOWNLEFT));
-
-//            world->setOrganism(oldX,oldY, nullptr);
-//            world->setOrganism(down, left, this);
-//            this->setPosition(down, left);
-//            ateHuman = true;
         }
     }
 
@@ -224,7 +180,6 @@ void Zombie::move() {
             world->setOrganism(this->x, this->y, this);
         }
         world->setOrganism(oldX,oldY, nullptr);
-
         setStarvation(++starvation);
     }
     else

@@ -28,6 +28,7 @@ void World::gameCycle() {
 
 ///POPULATE WORLD
 void World::populateWorld() {
+
     //Setup Random Int Generator
     random_device rd;
     mt19937 gen(rd());
@@ -208,7 +209,6 @@ void World::spawnOrganisms()
     }
 }
 
-
 ///DISPLAY METHOD
 void World::display() const {
     cout << "\n\n\n";
@@ -291,14 +291,6 @@ int World::returnRandom(int thisNumber) const {
     uniform_int_distribution<> dis(0, thisNumber);
 
     return dis(gen);
-}
-
-void World::displayForunix() const {
-
-}
-
-void World::displayForWindows() const {
-
 }
 
 bool World::checkExtinction() {

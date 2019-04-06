@@ -5,19 +5,17 @@
 #include <vector>
 #include "World.h"
 
-using namespace std;
+enum speciesType {ZOMBIE, HUMAN};
 
-enum speciesType {ZOMBIE, HUMAN};//List of species
+class World;
 
-class World;//World prototype
-
-class Organism//Class world is a prototype of the world where gameplay executes
+class Organism
 {
 protected:
     //Member properties
-    World *world;//An organism exists in this world
+    World *world; //An organism exists in this world
     enum moveList { LEFT, UP, RIGHT, DOWN, UPLEFT, UPRIGHT, DOWNRIGHT,  DOWNLEFT };//List of adjacent moves
-    vector<int> possibleMoves;
+    std::vector<int> possibleMoves;
     int x, y, xPos, yPos, stepsInTime;
     bool moved, hasSpawned;
 

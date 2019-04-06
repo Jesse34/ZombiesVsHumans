@@ -1,7 +1,3 @@
-//
-// Created by prog2100 on 26/11/17.
-//
-
 #include "Organism.h"
 
 Organism::Organism() {}
@@ -16,10 +12,6 @@ bool Organism::getMoved() const {
 
 void Organism::setMoved(bool oneStep) {
     this->moved = oneStep;
-}
-
-void Organism::setHasSpawned(bool hasSpawned) {
-
 }
 
 bool Organism::getHasSpawned() {
@@ -38,3 +30,5 @@ void Organism::setPosition(int x, int y) {
     this->x = x;
     this->y = y;
 }
+
+void Organism::setHasSpawned(bool hasSpawned) {}

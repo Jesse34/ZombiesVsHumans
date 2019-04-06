@@ -4,10 +4,10 @@
 #include "World.h"
 #include "Organism.h"
 
-class Zombie : public Organism//Prototype for zombie object : extends organism
+class Zombie : public Organism
 {
 protected:
-    int starvation = 0;//Increments each time a zombie fails to eat
+    int starvation = 0; //Increments each time a zombie fails to eat
     vector<int> possibleEats;
 
 public:

@@ -4,8 +4,7 @@
 #include "World.h"
 #include <vector>
 
-
-class Human : public Organism//Prototype for zombie object : extends organism
+class Human : public Organism
 {
 
 private:

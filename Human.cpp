@@ -1,14 +1,8 @@
-//
-// Created by prog2100 on 26/11/17.
-//
-
 #include "Human.h"
 
 #include <vector>
 #include <iostream>
 #include <random>
-
-using namespace std;
 
 Human::Human() {}
 
