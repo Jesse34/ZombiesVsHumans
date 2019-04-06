@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Release-Cygwin" CONFIG_NAME="Release" TOOLCHAIN_NAME="Cygwin" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="87417a83-23fa-4a26-8ef2-a9aa9807d2be" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <ignored path="$PROJECT_DIR$/cmake-build-debug-cygwin/" />
+    <ignored path="$PROJECT_DIR$/cmake-build-release-cygwin/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Release-Cygwin" />
+  <component name="FavoritesManager">
+    <favorites_list name="ZombiesVsHumans" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/World.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="344">
+              <caret line="212" column="29" selection-start-line="212" selection-start-column="29" selection-end-line="212" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+                <element signature="e#2877#6189#0" />
+                <element signature="e#7081#7256#0" />
+                <element signature="e#7258#7691#0" />
+                <element signature="e#7693#7908#0" />
+                <element signature="e#7910#8065#0" />
+                <element signature="e#8269#8308#0" />
+                <element signature="e#8310#8352#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>MAXROW</find>
+      <find>x</find>
+      <find>y</find>
+      <find>display()</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/styhst.h" />
+        <option value="$PROJECT_DIR$/Human.h" />
+        <option value="$PROJECT_DIR$/Organism.cpp" />
+        <option value="$PROJECT_DIR$/Human.cpp" />
+        <option value="$PROJECT_DIR$/Organism.h" />
+        <option value="$PROJECT_DIR$/Zombie.h" />
+        <option value="$PROJECT_DIR$/Zombie.cpp" />
+        <option value="$PROJECT_DIR$/World.h" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/World.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1" />
+    <option name="width" value="394" />
+    <option name="height" value="234" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ZombiesVsHumans" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ZombiesVsHumans" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ZombiesVsHumans" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ZombiesVsHumans" type="462c0819:PsiDirectoryNode" />
+              <item name="cmake-build-debug-cygwin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ZombiesVsHumans" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ZombiesVsHumans" type="462c0819:PsiDirectoryNode" />
+              <item name="cmake-build-debug-cygwin" type="462c0819:PsiDirectoryNode" />
+              <item name="CMakeFiles" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="C:/Program Files/ConEmu/ConEmu64.exe" />
+    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="CMake Application.ZombiesVsHumans">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Release-Cygwin" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZombiesVsHumans" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Release-Cygwin" RUN_TARGET_PROJECT_NAME="ZombiesVsHumans" RUN_TARGET_NAME="ZombiesVsHumans" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.Build All" />
+      <item itemvalue="CMake Application.ZombiesVsHumans" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="87417a83-23fa-4a26-8ef2-a9aa9807d2be" name="Default" comment="" />
+      <created>1511749692665</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1511749692665</updated>
+      <workItem from="1511749695329" duration="4665000" />
+      <workItem from="1511790384411" duration="2014000" />
+      <workItem from="1512193273418" duration="3797000" />
+      <workItem from="1512392901254" duration="1955000" />
+      <workItem from="1512424895877" duration="9231000" />
+      <workItem from="1512450434700" duration="1218000" />
+      <workItem from="1512477822484" duration="1942000" />
+      <workItem from="1512484708280" duration="6468000" />
+      <workItem from="1512495745770" duration="7175000" />
+      <workItem from="1512506435062" duration="10647000" />
+      <workItem from="1512531582146" duration="3749000" />
+      <workItem from="1512578642290" duration="4134000" />
+      <workItem from="1512583986689" duration="1077000" />
+      <workItem from="1512586485726" duration="1747000" />
+      <workItem from="1512588855262" duration="3417000" />
+      <workItem from="1512595195203" duration="12353000" />
+      <workItem from="1512619225198" duration="14245000" />
+      <workItem from="1512651034654" duration="6188000" />
+      <workItem from="1512668612543" duration="326000" />
+      <workItem from="1526169728659" duration="1317000" />
+      <workItem from="1554469161421" duration="866000" />
+      <workItem from="1554470932242" duration="3015000" />
+      <workItem from="1554513640237" duration="1589000" />
+      <workItem from="1554531915001" duration="436000" />
+      <workItem from="1554533186161" duration="3756000" />
+      <workItem from="1554537540425" duration="62000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <created>1511753344453</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1511753344453</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Transferred the header files provided in class. Will implement the functions for these classes in each respective .cpp">
+      <created>1511753555932</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1511753555932</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Transferred the header files provided in class. Will implement the functions for these classes in each respective .cpp">
+      <created>1511759666525</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1511759666525</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Transferred the header files provided in class. Will implement the functions for these classes in each respective .cpp">
+      <created>1512199763803</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1512199763804</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Transferred the header files provided in class. Will implement the functions for these classes in each respective .cpp">
+      <created>1512394180347</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1512394180347</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Transferred the header files provided in class. Will implement the functions for these classes in each respective .cpp">
+      <created>1512394821156</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1512394821156</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Created auto-generated stubs for each provided .h file method">
+      <created>1512427244526</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1512427244526</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Displaying Grid with pointer refrences in memory. Need to overload the Organism* output for this to be readable">
+      <created>1512430810483</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1512430810483</updated>
+    </task>
+    <task id="LOCAL-00009" summary="So much done Random world generation is 95% perfect">
+      <created>1512435212670</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1512435212670</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Set game to run in gnome terminal and set on a looping gameCycle. Next is to implement moving logic">
+      <created>1512480678944</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1512480678944</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Working on moving logic, no luck yet.">
+      <created>1512493842032</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1512493842032</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Working on moving logic, no luck yet.">
+      <created>1512494565698</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1512494565698</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Fixed issues involving the interaction between Organism and World. Fixed by passing a world pointer to the move method. Ready to begin implementing the move method.">
+      <created>1512503016083</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1512503016083</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Moving kinda works but not really">
+      <created>1512505226703</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1512505226703</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Made columns actually connected to the x-axis and rows to the y-axis. FINALLY">
+      <created>1512510071145</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1512510071146</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Fixing some out of bounds issues with Human movement">
+      <created>1512514497755</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1512514497755</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Making progress on move logic but still not bug free. Overlapping other Humans and Zombies">
+      <created>1512519355955</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1512519355955</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Making progress on move logic but still not bug free. Overlapping other Humans and Zombies">
+      <created>1512535100473</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1512535100473</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Revert &quot;Making progress on move logic but still not bug free. Overlapping other Humans and Zombies&quot;&#10;&#10;This reverts commit 59672fd">
+      <created>1512535134050</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1512535134050</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Making progress on move logic but still not bug free. Overlapping other Humans and Zombies">
+      <created>1512535266276</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1512535266276</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Making progress on move logic but still not bug free. Overlapping other Humans and Zombies">
+      <created>1512535327083</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1512535327083</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Power dont kill me">
+      <created>1512584045726</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1512584045726</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Power dont kill me">
+      <created>1512588933500</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1512588933500</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Still debugging the basic move method">
+      <created>1512592235393</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1512592235393</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Human movement is working fine now. Working on core game functions.">
+      <created>1512598022416</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1512598022416</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Counting NUM of organisms to output to console">
+      <created>1512599100278</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1512599100278</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Counting and displaying the number of organisms correctly. Now to create the move function for the Zombies and fill out some of their method stubs.">
+      <created>1512599618068</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1512599618068</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Human Spawning is working without error">
+      <created>1512607603641</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1512607603641</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Beginning to work on Zombie movement logic">
+      <created>1512608347225</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1512608347225</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Need to check zombie move logic bounds for all 8 directions and also check for eat Humans">
+      <created>1512608927930</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1512608927930</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Implemented Zombie move methods and changes the Zombie and Human to use the enum moveList. Now for Zombie eat method.">
+      <created>1512626717672</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1512626717672</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Setting up Zombie conversion">
+      <created>1512632989129</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1512632989129</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Zombie Conversion method is acting a little weird">
+      <created>1512635687193</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1512635687193</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Zombie conversion is buggy and starvation isn't implemented yet.">
+      <created>1512636369276</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1512636369276</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Zombie conversion works well now, only starvation left">
+      <created>1512652122632</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1512652122632</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Finished product, messing with display and game length">
+      <created>1512654260554</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1512654260554</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Tried fixing bug that favours top left eating">
+      <created>1512656201103</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1512656201103</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Revert &quot;Finished product, messing with display and game length&quot;&#10;&#10;This reverts commit 4b69f09">
+      <created>1512656238578</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1512656238578</updated>
+    </task>
+    <task id="LOCAL-00039" summary="FIXED LOGIC DONT BREAK IT AGAIN. GOING TO CHANGE DISPLAY AND STOP">
+      <created>1512656818673</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1512656818673</updated>
+    </task>
+    <task id="LOCAL-00040" summary="DONE ASSIGNMENT.&#10;&#10;I could try to fixed logic to not prefer top-left eating but it's non-important.">
+      <created>1512657145141</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1512657145141</updated>
+    </task>
+    <task id="LOCAL-00041" summary="DONE ASSIGNMENT.&#10;&#10;I could try to fixed logic to not prefer top-left eating but it's non-important.">
+      <created>1512657288289</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1512657288292</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="107389000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49333334" visible="true" weight="0.15831557" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" sideWeight="0.50666666" side_tool="true" weight="0.11354839" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.48390445" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5365206" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32917964" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053304" side_tool="true" weight="0.32917964" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3271028" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.32917964" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.5981308" />
+      <window_info anchor="bottom" id="CMake" order="11" sideWeight="0.49946696" weight="0.32917964" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Data View" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Working on moving logic, no luck yet." />
+    <MESSAGE value="Fixed issues involving the interaction between Organism and World. Fixed by passing a world pointer to the move method. Ready to begin implementing the move method." />
+    <MESSAGE value="Moving kinda works but not really" />
+    <MESSAGE value="Made columns actually connected to the x-axis and rows to the y-axis. FINALLY" />
+    <MESSAGE value="Fixing some out of bounds issues with Human movement" />
+    <MESSAGE value="Revert &quot;Making progress on move logic but still not bug free. Overlapping other Humans and Zombies&quot;&#10;&#10;This reverts commit 59672fd" />
+    <MESSAGE value="Making progress on move logic but still not bug free. Overlapping other Humans and Zombies" />
+    <MESSAGE value="Power dont kill me" />
+    <MESSAGE value="Still debugging the basic move method" />
+    <MESSAGE value="Human movement is working fine now. Working on core game functions." />
+    <MESSAGE value="Counting NUM of organisms to output to console" />
+    <MESSAGE value="Counting and displaying the number of organisms correctly. Now to create the move function for the Zombies and fill out some of their method stubs." />
+    <MESSAGE value="Human Spawning is working without error" />
+    <MESSAGE value="Beginning to work on Zombie movement logic" />
+    <MESSAGE value="Need to check zombie move logic bounds for all 8 directions and also check for eat Humans" />
+    <MESSAGE value="Implemented Zombie move methods and changes the Zombie and Human to use the enum moveList. Now for Zombie eat method." />
+    <MESSAGE value="Setting up Zombie conversion" />
+    <MESSAGE value="Zombie Conversion method is acting a little weird" />
+    <MESSAGE value="Zombie conversion is buggy and starvation isn't implemented yet." />
+    <MESSAGE value="Zombie conversion works well now, only starvation left" />
+    <MESSAGE value="Finished product, messing with display and game length" />
+    <MESSAGE value="Tried fixing bug that favours top left eating" />
+    <MESSAGE value="Revert &quot;Finished product, messing with display and game length&quot;&#10;&#10;This reverts commit 4b69f09" />
+    <MESSAGE value="FIXED LOGIC DONT BREAK IT AGAIN. GOING TO CHANGE DISPLAY AND STOP" />
+    <MESSAGE value="DONE ASSIGNMENT.&#10;&#10;I could try to fixed logic to not prefer top-left eating but it's non-important." />
+    <option name="LAST_COMMIT_MESSAGE" value="DONE ASSIGNMENT.&#10;&#10;I could try to fixed logic to not prefer top-left eating but it's non-important." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/World.h</url>
+          <line>47</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styhst.h" />
+    <entry file="file:///usr/include/c++/5/iostream" />
+    <entry file="file:///usr/include/c++/5/bits/uniform_int_dist.h" />
+    <entry file="file://$PROJECT_DIR$/World.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="55" column="41" selection-start-line="55" selection-start-column="41" selection-end-line="55" selection-end-column="41" />
+          <folding>
+            <element signature="e#35#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Organism.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <marker date="1512603549012" expanded="true" signature="206:219" ph="{...}" />
+            <marker date="1512603549012" expanded="true" signature="295:297" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Organism.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+          <folding>
+            <element signature="e#41#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Human.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+          <folding>
+            <element signature="e#43#61#0" expanded="true" />
+            <element signature="e#161#294#0" />
+            <element signature="e#316#1980#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zombie.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3179">
+          <caret line="187" column="25" selection-start-line="187" selection-start-column="25" selection-end-line="187" selection-end-column="25" />
+          <folding>
+            <element signature="e#43#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zombie.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Human.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.CLion2019.1/system/cygwin_cmake/share/cmake-3.13.4/Modules/CMakeTestCCompiler.cmake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/World.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="212" column="29" selection-start-line="212" selection-start-column="29" selection-end-line="212" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#2877#6189#0" />
+            <element signature="e#7081#7256#0" />
+            <element signature="e#7258#7691#0" />
+            <element signature="e#7693#7908#0" />
+            <element signature="e#7910#8065#0" />
+            <element signature="e#8269#8308#0" />
+            <element signature="e#8310#8352#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

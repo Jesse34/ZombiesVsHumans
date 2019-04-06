@@ -1,0 +1,8 @@
+Determining if the C compiler works failed with the following output:
+Change Dir: /cygdrive/d/Jesse/Projects/ZombiesVsHumans/cmake-build-debug-cygwin/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/cygwin64/bin/cmake.exe" "cmTC_4c1c8/fast"
+CMake Error: The source directory "/cygdrive/d/Jesse/Projects/ZombiesVsHumans/cmake-build-debug-cygwin/CMakeFiles/CMakeTmp/cmTC_4c1c8/fast" does not exist.
+Specify --help for usage, or press the help button on the CMake GUI.
+
+

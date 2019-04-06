@@ -1,0 +1,44 @@
+C:\Users\Jesse\.CLion2019.1\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=D:/cygwin64/bin/cmake.exe -DCMAKE_C_COMPILER=D:/cygwin64/bin/gcc.exe -DCMAKE_CXX_COMPILER=D:/cygwin64/bin/g++.exe -G "CodeBlocks - Unix Makefiles" /cygdrive/d/Jesse/Projects/ZombiesVsHumans
+-- The C compiler identification is GNU 7.4.0
+-- The CXX compiler identification is GNU 7.4.0
+-- Check for working C compiler: D:/cygwin64/bin/gcc.exe
+CMake Error at /cygdrive/c/Users/Jesse/.CLion2019.1/system/cygwin_cmake/share/cmake-3.13.4/Modules/CMakeTestCCompiler.cmake:25 (file):
+  file failed to open for writing (Is a directory):
+
+    /cygdrive/d/Jesse/Projects/ZombiesVsHumans/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+Call Stack (most recent call first):
+  CMakeLists.txt:2 (project)
+
+
+CMake Error at /cygdrive/c/Users/Jesse/.CLion2019.1/system/cygwin_cmake/share/cmake-3.13.4/Modules/CMakeTestCCompiler.cmake:37 (try_compile):
+  Failed to open
+
+    /cygdrive/d/Jesse/Projects/ZombiesVsHumans/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeLists.txt
+
+  Is a directory
+Call Stack (most recent call first):
+  CMakeLists.txt:2 (project)
+
+
+-- Check for working C compiler: D:/cygwin64/bin/gcc.exe -- broken
+CMake Error at /cygdrive/c/Users/Jesse/.CLion2019.1/system/cygwin_cmake/share/cmake-3.13.4/Modules/CMakeTestCCompiler.cmake:52 (message):
+  The C compiler
+
+    "D:/cygwin64/bin/gcc.exe"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:2 (project)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/cygdrive/d/Jesse/Projects/ZombiesVsHumans/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "/cygdrive/d/Jesse/Projects/ZombiesVsHumans/cmake-build-debug/CMakeFiles/CMakeError.log".
