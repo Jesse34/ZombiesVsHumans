@@ -15,7 +15,7 @@ int main() {
 
         world.display();
 
-        usleep(500000);
+        usleep(200000);
     }
     while (!world.checkExtinction() && world.count <= 10000);
 

@@ -22,6 +22,7 @@ void Zombie::move() {
     int oldY = this->y;
 
     possibleMoves.clear();
+    possibleEats.clear();
 
     int left = y - 1;
     int up = x - 1;
@@ -30,8 +31,6 @@ void Zombie::move() {
 
     bool ateHuman = false;
 
-    vector<int> possibleEats;
-
     ////Check Left
     if (left >= 0 && !ateHuman) {
         if (world->getOrganism(x, left) == nullptr) {
@@ -39,10 +38,10 @@ void Zombie::move() {
         } else if (world->getOrganism(x, left)->getSpecies() == HUMAN) {
             possibleEats.push_back(moveList(LEFT));
 
-            world->setOrganism(oldX,oldY, nullptr);
-            world->setOrganism(x, left, this);
-            this->setPosition(x,left);
-            ateHuman = true;
+//            world->setOrganism(oldX,oldY, nullptr);
+//            world->setOrganism(x, left, this);
+//            this->setPosition(x,left);
+//            ateHuman = true;
         }
     }
     ////Check Up
@@ -52,10 +51,10 @@ void Zombie::move() {
         } else if (world->getOrganism(up, y)->getSpecies() == HUMAN) {
             possibleEats.push_back(moveList(UP));
 
-            world->setOrganism(oldX,oldY, nullptr);
-            world->setOrganism(up, y, this);
-            this->setPosition(up, y);
-            ateHuman = true;
+//            world->setOrganism(oldX,oldY, nullptr);
+//            world->setOrganism(up, y, this);
+//            this->setPosition(up, y);
+//            ateHuman = true;
         }
     }
     ////Check Right
@@ -65,10 +64,10 @@ void Zombie::move() {
         } else if (world->getOrganism(x, right)->getSpecies() == HUMAN) {
             possibleEats.push_back(moveList(RIGHT));
 
-            world->setOrganism(oldX,oldY, nullptr);
-            world->setOrganism(x, right, this);
-            this->setPosition(x, right);
-            ateHuman = true;
+//            world->setOrganism(oldX,oldY, nullptr);
+//            world->setOrganism(x, right, this);
+//            this->setPosition(x, right);
+//            ateHuman = true;
         }
     }
     ////Check Down
@@ -78,10 +77,10 @@ void Zombie::move() {
         } else if (world->getOrganism(down, y)->getSpecies() == HUMAN) {
             possibleEats.push_back(moveList(DOWN));
 
-            world->setOrganism(oldX,oldY, nullptr);
-            world->setOrganism(down, y, this);
-            this->setPosition(down, y);
-            ateHuman = true;
+//            world->setOrganism(oldX,oldY, nullptr);
+//            world->setOrganism(down, y, this);
+//            this->setPosition(down, y);
+//            ateHuman = true;
         }
     }
     ////Check NW
@@ -91,10 +90,10 @@ void Zombie::move() {
         } else if (world->getOrganism(up, left)->getSpecies() == HUMAN) {
             possibleEats.push_back(moveList(UPLEFT));
 
-            world->setOrganism(oldX,oldY, nullptr);
-            world->setOrganism(up, left, this);
-            this->setPosition(up, left);
-            ateHuman = true;
+//            world->setOrganism(oldX,oldY, nullptr);
+//            world->setOrganism(up, left, this);
+//            this->setPosition(up, left);
+//            ateHuman = true;
         }
     }
     ////Check NE
@@ -104,10 +103,10 @@ void Zombie::move() {
         } else if (world->getOrganism(up, right)->getSpecies() == HUMAN) {
             possibleEats.push_back(moveList(UPRIGHT));
 
-            world->setOrganism(oldX,oldY, nullptr);
-            world->setOrganism(up, right, this);
-            this->setPosition(up, right);
-            ateHuman = true;
+//            world->setOrganism(oldX,oldY, nullptr);
+//            world->setOrganism(up, right, this);
+//            this->setPosition(up, right);
+//            ateHuman = true;
         }
     }
     ////Check SE
@@ -117,10 +116,10 @@ void Zombie::move() {
         } else if (world->getOrganism(down, right)->getSpecies() == HUMAN) {
             possibleEats.push_back(moveList(DOWNRIGHT));
 
-            world->setOrganism(oldX,oldY, nullptr);
-            world->setOrganism(down, right, this);
-            this->setPosition(down, right);
-            ateHuman = true;
+//            world->setOrganism(oldX,oldY, nullptr);
+//            world->setOrganism(down, right, this);
+//            this->setPosition(down, right);
+//            ateHuman = true;
         }
     }
     ////Check SW
@@ -130,16 +129,61 @@ void Zombie::move() {
         } else if (world->getOrganism(down, left)->getSpecies() == HUMAN) {
             possibleEats.push_back(moveList(DOWNLEFT));
 
-            world->setOrganism(oldX,oldY, nullptr);
-            world->setOrganism(down, left, this);
-            this->setPosition(down, left);
-            ateHuman = true;
+//            world->setOrganism(oldX,oldY, nullptr);
+//            world->setOrganism(down, left, this);
+//            this->setPosition(down, left);
+//            ateHuman = true;
         }
     }
 
-/// Possible moves int values
-/// { LEFT, UP, RIGHT, DOWN, UPRIGHT, DOWNRIGHT, UPLEFT, DOWNLEFT }
+    /// Possible eat moves int values
+    /// { LEFT, UP, RIGHT, DOWN, UPRIGHT, DOWNRIGHT, UPLEFT, DOWNLEFT }
 
+    if (!possibleEats.empty()) {
+        int eatSelection = world->returnRandom(static_cast<int>(possibleEats.size() - 1));
+
+        world->setOrganism(oldX,oldY, nullptr);
+
+        switch (possibleEats[eatSelection]) {
+            case 0:
+                world->setOrganism(x, left, this);
+                this->setPosition(x,left);
+                break;
+            case 1:
+                world->setOrganism(up, y, this);
+                this->setPosition(up, y);
+                break;
+            case 2:
+                world->setOrganism(x, right, this);
+                this->setPosition(x, right);
+                break;
+            case 3:
+                world->setOrganism(down, y, this);
+                this->setPosition(down, y);
+                break;
+            case 4:
+                world->setOrganism(up, left, this);
+                this->setPosition(up, left);
+                break;
+            case 5:
+                world->setOrganism(up, right, this);
+                this->setPosition(up, right);
+                break;
+            case 6:
+                world->setOrganism(down, right, this);
+                this->setPosition(down, right);
+                break;
+            case 7:
+                world->setOrganism(down, left, this);
+                this->setPosition(down, left);
+                break;
+            default:
+                break;
+        }
+        ateHuman = true;
+    }
+
+    //If no Human was eaten, look for a place to move to
     if (!ateHuman){
         if (!possibleMoves.empty()) {
             int moveSelection = world->returnRandom(static_cast<int>(possibleMoves.size() - 1));

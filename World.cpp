@@ -211,7 +211,7 @@ void World::spawnOrganisms()
 
 ///DISPLAY METHOD
 void World::display() const {
-    cout << "\n\n\n\n\n\n\n\n\n\n\n\n";
+    cout << "\n\n\n";
     for(int x=0;x<MAXROW;x++){
         for(int y=0;y<MAXCOL;y++){
 
